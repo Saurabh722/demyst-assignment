@@ -1,0 +1,19 @@
+{
+  "name": "demyst-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app-server": "cd server/app-server && npm run dev",
+    "accounting-server": "cd server/accounting && npm run dev",
+    "decision-engine": "cd server/decision-engine &&  npm run dev",
+    "client": "cd client/loan-app && npm start",
+    "server": "concurrently \"npm run app-server\" \"npm run accounting-server\" \"npm run decision-engine\"",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
