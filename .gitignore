@@ -12,7 +12,6 @@ config/dev.js
 client/loan-app
 server/app-server
 server/accounting
-server/decision-engine
 
 # Runtime data
 pids
