@@ -123,3 +123,16 @@ There is none, ensure you submit your best attempt and as soon as you possibly c
 ### How to submit ?
 
 Submit a GitHub / Bitbucket repo for review. No ZIP files!
+
+# Usage
+
+for demo we can use below credentials:-
+username: user
+password: password
+
+# TODO
+Validation
+Warning messages
+Unit tests
+Locale
+
