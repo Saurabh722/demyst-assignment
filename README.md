@@ -126,13 +126,15 @@ Submit a GitHub / Bitbucket repo for review. No ZIP files!
 
 # Usage
 
-for demo we can use below credentials:-
-username: user
-password: password
+## For demo we can use below credentials:-
+
+- username: user
+- password: password
 
 # TODO
-Validation
-Warning messages
-Unit tests
-Locale
+
+- Validation
+- Warning messages
+- Unit tests
+- Locale
 
