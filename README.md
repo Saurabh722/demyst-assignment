@@ -134,6 +134,8 @@ Submit a GitHub / Bitbucket repo for review. No ZIP files!
 # TODO
 
 - Validation
+- Split into components
+- CSS structure
 - Warning messages
 - Unit tests
 - Locale
