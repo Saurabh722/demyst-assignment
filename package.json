@@ -6,15 +6,34 @@
   "scripts": {
     "app-server": "cd server/app-server && npm run dev",
     "accounting-server": "cd server/accounting && npm run dev",
-    "decision-engine": "cd server/decision-engine &&  npm run dev",
-    "system-logs": "cd server/system-logs &&  npm run dev",
+    "decision-engine": "cd server/decision-engine && npm run dev",
+    "system-logs": "cd server/system-logs && npm run dev",
     "client": "cd client/loan-app && npm start",
     "server": "concurrently \"npm run app-server\" \"npm run accounting-server\" \"npm run decision-engine\" \"npm run system-logs\"",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "app-server-pord": "cd server/app-server && npm start",
+    "accounting-server-pord": "cd server/accounting && npm start",
+    "decision-engine-pord": "cd server/decision-engine && npm start",
+    "system-logs-pord": "cd server/system-logs && npm start",
+    "client-pord": "cd client/loan-app && npm start",
+    "server-pord": "concurrently \"npm run app-server-pord\" \"npm run accounting-server-pord\" \"npm run decision-engine-pord\" \"npm run system-logs-pord\"",
+    "build": "concurrently \"npm run server-pord\" \"npm run client-pord\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "node-localstorage": "^3.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.19.0",
+    "react-scripts": "5.0.1",
+    "sass": "^1.69.5",
+    "web-vitals": "^2.1.4"
   }
 }
