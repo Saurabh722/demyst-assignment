@@ -131,6 +131,22 @@ Submit a GitHub / Bitbucket repo for review. No ZIP files!
 - username: user
 - password: password
 
+## project includes 5 different repos
+
+- clone https://github.com/Saurabh722/demyst-assignment
+- clone all the other repos according to directory given client/server
+
+- client/loan-app https://github.com/Saurabh722/loan-app
+- server/app-server https://github.com/Saurabh722/app-server
+- server/accounting https://github.com/Saurabh722/accounting
+- server/decision-engine https://github.com/Saurabh722/decision-engine
+- server/system-logs https://github.com/Saurabh722/system-logs
+
+### run App
+
+- run npm install for each repo including parent demyst-assignment repo
+- once done `npm run dev`
+
 # TODO
 
 - Validation
