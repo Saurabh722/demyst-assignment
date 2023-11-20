@@ -147,6 +147,11 @@ Submit a GitHub / Bitbucket repo for review. No ZIP files!
 - run npm install for each repo including parent demyst-assignment repo
 - once done `npm run dev`
 
+# Docker
+
+- `docker build -t demyst-assignment .`
+- `docker run -it -p 3000:3000 -p 5001:5001 -p 5002:5002 -p 5003:5003 -p 5004:5004 demyst-assignment`
+
 # TODO
 
 - Validation
